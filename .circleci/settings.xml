@@ -6,16 +6,16 @@
     <servers>
         <server>
             <id>packagecloud.release</id>
-            <password>${env.PCLOUD}</password>
+            <password>9a73e6a91f10f9a249d67f17d8a152c75aa432045d4cb4a3</password>
         </server>
         <server>
             <id>packagecloud.snapshot</id>
-            <password>${env.PCLOUD}</password>
+            <password>9a73e6a91f10f9a249d67f17d8a152c75aa432045d4cb4a3</password>
         </server>
         <server>
             <id>github</id>
-            <username>springframeworkguru</username>
-            <password>${env.GIT_PWD}</password>
+            <username>ariel.nackash@gmail.com</username>
+            <password>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</password>
         </server>
     </servers>
 </settings>
