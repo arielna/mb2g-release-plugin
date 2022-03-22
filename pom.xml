@@ -69,4 +69,5 @@
             <url>packagecloud+https://packagecloud.io/springframeworkguru/snapshot</url>
         </snapshotRepository>
     </distributionManagement>
+
 </project>
