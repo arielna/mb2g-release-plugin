@@ -6,16 +6,16 @@
     <servers>
         <server>
             <id>packagecloud.release</id>
-            <password>/password>
+            <password>${env.PCLOUD}</password>
         </server>
         <server>
             <id>packagecloud.snapshot</id>
-            <password></password>
+            <password>${env.PCLOUD}</password>
         </server>
         <server>
             <id>github</id>
             <username>ariel.nackash@gmail.com</username>
-            <password></password>
+            <password>${env.PGIT}</password>
         </server>
     </servers>
 </settings>
